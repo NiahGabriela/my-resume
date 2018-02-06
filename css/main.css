@@ -24,6 +24,10 @@ aside section h2:first-child{
 }
 
 /* MAIN  */
+
+.contenedor {
+  display: flex;
+}
 main section > h2 {
   text-transform: uppercase;;
   lettler-spacing: 5px;
