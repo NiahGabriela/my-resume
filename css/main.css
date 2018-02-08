@@ -5,17 +5,21 @@ ul {
 }
 .flex-container{
   display:flex;
+  width: 1200%
   justify-content: space-around;
   align-content: center;
 
 
 }
 .flex-aside{
+
   flex-basis: 280px;
   flex-grow: 50;
 }
 aside {
   background-color: #647087;
+  width:  30%
+  margin-right: 3%;
 }
 aside * {
   color: white;
