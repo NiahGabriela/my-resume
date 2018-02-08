@@ -8,7 +8,8 @@ ul {
   width: 1200%
   justify-content: space-around;
   align-content: center;
-
+  justify-content: center;
+  justify-content: space-between;
 }
 .flex-aside{
 
@@ -37,13 +38,14 @@ aside section h2:first-child{
 
 #profile-pic img{
   border-radius:60%;
-
+  width: 100px;
 }
 
 /* MAIN  */
 
 .contenedor {
   display: flex;
+  margin: 0 auto;;
 }
 main section > h2 {
   text-transform: uppercase;
