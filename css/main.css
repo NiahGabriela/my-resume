@@ -9,7 +9,6 @@ ul {
   justify-content: space-around;
   align-content: center;
 
-
 }
 .flex-aside{
 
@@ -47,21 +46,29 @@ aside section h2:first-child{
   display: flex;
 }
 main section > h2 {
-  text-transform: uppercase;;
+  text-transform: uppercase;
   lettler-spacing: 5px;
 }
 .hero {
   background-color: #F7DDC3;
+    box-shadow: 2px 2px 50px 3px #647987 inset;
+    padding: 10% 0;
 }
 .hero h2 {
   color: white;
   border-top:2px solid white;
-  text-transform: none;
-  letter-spacing:  normal;
+  text-transform: uppercase;
+  letter-spacing:  10%;
+
 }
-.hero {
-  box-shadow: 2px 2px 50px 3px #647987 inset;
+.hero h1
+{letter-spacing: 10%}
+
+h1, h2
+{
+  text-transform: uppercase;
 }
+
 .about me {
   background-color: #F7DDC3;
 }
@@ -76,4 +83,64 @@ article h4 {
 
 article ul {
   list-style-type: square;
+}
+/*
+dt {
+  clear: left;
+  width: 30%;
+  float: left;
+  border-top: 1px solid white;
+  font-weight: bolder;
+}
+dd{
+  clear: right;
+  width: 50%;
+  float; left;
+  margin: 0%;
+  border-top: 1px solid white;
+}*/
+dt:last-of-type, dd:last-of-type{
+  border-bottom: 1px solid white;
+  font-weight: bolder;
+}
+
+dl{
+  display:flex;
+  flex-wrap: wrap;
+
+}
+
+.clear {
+  clear: both;
+}
+
+dt, dd
+{
+  flex-basis: 40%;
+  margin 0%;
+
+}
+/* icons */
+.fb::before {
+  content: "\f082";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+
+}
+.social-item::before {
+  padding-right: 15px;
+}
+
+meter {
+  display: block;
+  width: 80%;
+}
+
+meter::-webkit-meter-optimum-value{
+  background: none;
+  background-color: blue;
+}
+meter::-webkit-meter-bar{
+  background: none;
+  background-color: purple;
 }
