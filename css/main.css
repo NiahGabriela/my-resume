@@ -138,3 +138,15 @@ article h4 {
   font-weight: 900;
   font-size: 2em;
 }
+
+@media (max-width: 400px)
+{
+  .main-container
+  width: 400px;
+  flex-wrap:wrap;
+  font-size: 1.2em;
+}
+  aside, main
+  {
+    flex: 100%
+  }
